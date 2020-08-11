@@ -16,7 +16,7 @@
     padding: 20px 0px 20px 0px;
 }
 
-.jumbotron{
+.jumbotron {
     padding: 70px 0px 70px 0px;
     margin: 0px auto;
     background-color: #9575CD;
@@ -34,3 +34,60 @@
     padding: 50px 0px 50px 0px;
     min-height: 400px;
 }
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+} 
+
+.card-header{
+    cursor: pointer;
+}
+
+.navbar-text{
+    cursor: pointer;
+}
+
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 250px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 250px;
+}
+
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.modal-header {
+    background: #512DA8;
+    color: floralwhite; }
+    .modal-header button {
+      color: floralwhite; }
+  
+  .modal-body {
+    background: #D1C4E9; }
+  
+  .modal-footer {
+    background: #9575CD; }
